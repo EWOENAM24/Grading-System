@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../System/Assess/css/style.css" type="text/css" rel="stylesheet">
+    <script src="Assess/js/index.js"></script>
+</head>
+
+<body>
+    <header id="system">
+
+
+        <div id="input">
+            <label>Name</label>
+            <input type="text" name="first Name" placeholder="Name" id="name">
+
+            <label>Internal Assess</label>
+            <input type="number" name="IA" placeholder="IA" id="IA">
+
+            <label>Final Assess</label>
+            <input type="number" name="FA" placeholder="FA" id="FA">
+
+            <label>Course</label>
+            <select name="course" id="course">
+                <option value=""></option>
+                <option value="Fullstack">Fullstack</option>
+                <option value="Software">Software Eginer.</option>
+                <option value="Graphic">Graphic design</option>
+                <option value="Ms">Ms word pro.</option>
+                <option value="Cyber">Cyber Security</option>
+            </select>
+
+            <button onclick="checkin()">save</button>
+        </div>
+    </header>
+    <table id="table">
+        <tr>
+            <th>Student Name</th>
+
+            <th>Initial Assess</th>
+            <th>Final Assess.</th>
+            <th>Course</th>
+            <th>Total</th>
+
+            <th>Grade.</th>
+
+        </tr>
+    </table>
+    <button class="reset"><a href="">Reset</a></button>
+</body>
+
+</html>
